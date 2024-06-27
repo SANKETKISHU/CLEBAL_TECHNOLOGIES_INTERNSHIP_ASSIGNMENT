@@ -1,34 +1,15 @@
 
-# Python Projects
+# Internship Assignments at Clebal Technologies
 
-This repository contains three Python scripts:
+This repository contains Python scripts for various tasks and visualizations completed during my internship at Clebal Technologies.
 
-1. **Simple Calculator**: A script to perform basic arithmetic operations.
-2. **Lower and Upper Triangular Pyramids**: A script to generate and display lower and upper triangular matrices.
-3. **Iris Data Visualization**: A script to visualize the Iris dataset using various plots.
+## Week 1
 
-## Simple Calculator
-
-The `Calculator_using_Python.py` script provides a simple calculator that can perform the following operations:
-
-- Addition
-- Subtraction
-- Multiplication
-- Division
-
-### Usage
-
-To use the calculator, run the script and follow the prompts to enter the operation and the numbers.
-
-```sh
-python Calculator_using_Python.py
-```
-
-## Lower and Upper Triangular Pyramids
+### Lower and Upper Triangular Pyramids
 
 The `Lower_Upper_Triangular_Pyramids.py` script generates and displays lower and upper triangular matrices.
 
-### Usage
+#### Usage
 
 To generate the pyramids, run the script and follow the prompts.
 
@@ -36,18 +17,38 @@ To generate the pyramids, run the script and follow the prompts.
 python Lower_Upper_Triangular_Pyramids.py
 ```
 
-## Iris Data Visualization
+## Week 2
+
+### Simple Calculator
+
+The `Calculator_using_Python.py` script provides a simple calculator that can perform the following operations:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+#### Usage
+
+To use the calculator, run the script and follow the prompts to enter the operation and the numbers.
+
+```sh
+python Calculator_using_Python.py
+```
+
+## Week 3
+
+### Iris Data Visualization
 
 The `Iris_Data_Visualization.py` script loads the Iris dataset and generates various visualizations including histograms, pairplots, box plots, and a heatmap.
 
-### Visualizations
+#### Visualizations
 
 - **Histograms**: Display the distribution of each feature.
 - **Pairplot**: Visualize the relationships between features.
 - **Box plots**: Show the distribution of each feature by species.
 - **Heatmap**: Display the correlation between features.
 
-### Usage
+#### Usage
 
 To generate the visualizations, run the script and the plots will be saved as PNG files in your working directory.
 
@@ -65,3 +66,29 @@ The script will produce the following output files:
 - `petal_length_boxplot.png`
 - `petal_width_boxplot.png`
 - `iris_heatmap.png`
+
+## Week 4
+
+### Data Preprocessing and Feature Engineering - Phase 1
+
+The `Data_Preprocessing_and_Feature_Engineering_Phase_1.py` script preprocesses the Titanic dataset, performs feature engineering, and trains a Logistic Regression model.
+
+#### Tasks
+
+- Handle missing values
+- Normalize numerical features
+- Encode categorical features
+- Create new features
+- Train a Logistic Regression model
+
+#### Usage
+
+To preprocess the data and train the model, run the script.
+
+```sh
+python Data_Preprocessing_and_Feature_Engineering_Phase_1.py
+```
+
+### Example Output
+
+The script will display the columns of the DataFrame after preprocessing and the accuracy of the Logistic Regression model.
