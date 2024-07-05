@@ -92,3 +92,25 @@ python Data_Preprocessing_and_Feature_Engineering_Phase_1.py
 ### Example Output
 
 The script will display the columns of the DataFrame after preprocessing and the accuracy of the Logistic Regression model.
+
+## Week 5
+
+### Titanic Dataset Preprocessing and Logistic Regression
+
+The `Data_Preprocessing_and_Logistic_Regression.py` script preprocesses the Titanic dataset, performs feature engineering, and trains a Logistic Regression model for survival prediction.
+
+#### Tasks
+
+- Data Cleaning: Remove unnecessary columns and handle missing values.
+- Transformation: Convert categorical variables (`Sex`, `Embarked`) into numerical form.
+- Feature Engineering: Create a new feature `FamilySize` based on `SibSp` and `Parch`.
+- Normalization/Scaling: Standardize numerical features (`Age`, `Fare`).
+- Model Training: Train a Logistic Regression model to predict survival on the Titanic.
+
+#### Usage
+
+To preprocess the data and train the model, run the script.
+
+```sh
+python Data_Preprocessing_and_Logistic_Regression.py
+
