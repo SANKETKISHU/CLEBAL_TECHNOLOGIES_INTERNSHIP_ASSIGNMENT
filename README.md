@@ -113,4 +113,29 @@ To preprocess the data and train the model, run the script.
 
 ```sh
 python Data_Preprocessing_and_Logistic_Regression.py
+```
+
+## Week 6
+
+### Data Preprocessing and Feature Engineering - Phase 2
+
+The `Data_Preprocessing_and_feature_engineering-Phase-2.py` script continues the data preprocessing and feature engineering for the Titanic dataset.
+
+#### Tasks
+
+1. Handling missing values: Fill missing values in 'Age', 'Embarked', and 'Fare'.
+2. Encoding categorical variables: Convert 'Sex' and 'Embarked' into numerical form.
+3. Scaling features: Standardize 'Age' and 'Fare' using StandardScaler.
+4. Detecting outliers using Z-score: Identify outliers in 'Age' and 'Fare'.
+5. Feature engineering: Create new features 'FamilySize', 'IsAlone', and 'Title' from existing features.
+6. Drop unnecessary columns: Remove 'Cabin', 'Name', 'Ticket', and 'PassengerId'.
+7. Save the cleaned and engineered dataset to a new CSV file.
+
+#### Usage
+
+To preprocess the data and save the cleaned dataset, run the script.
+
+```sh
+python Data_Preprocessing_and_feature_engineering-Phase-2.py
+```
 
