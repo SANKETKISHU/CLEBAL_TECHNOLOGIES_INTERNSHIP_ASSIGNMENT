@@ -138,4 +138,35 @@ To preprocess the data and save the cleaned dataset, run the script.
 ```sh
 python Data_Preprocessing_and_feature_engineering-Phase-2.py
 ```
+## Week 7
+
+### House Price Prediction
+
+The `House_Price_Prediction.py` script performs data preprocessing, feature engineering, model tuning, and prediction using the Kaggle House Prices dataset.
+
+#### Tasks
+
+1. Load and preprocess the dataset (`train.csv`, `test.csv`).
+2. Handle missing values using median imputation for numerical features.
+3. Encode categorical variables using Label Encoding.
+4. Scale numerical features using StandardScaler.
+5. Detect and handle outliers (optional).
+6. Perform feature engineering (e.g., creating new features like `TotalSF`).
+7. Tune a Random Forest Regressor model using GridSearchCV.
+8. Evaluate the model using cross-validation and calculate RMSE.
+9. Train the best model and make predictions on the test set.
+10. Generate a submission file (`submission.csv`) for the Kaggle competition.
+
+#### Usage
+
+To run the house price prediction script, use the following command:
+
+```sh
+python House_Price_Prediction.py
+```
+
+#### Example Output
+
+- **RMSE Score**: Displays the RMSE score after cross-validation.
+- **Submission File**: Generates a `submission.csv` file for the Kaggle competition.
 
