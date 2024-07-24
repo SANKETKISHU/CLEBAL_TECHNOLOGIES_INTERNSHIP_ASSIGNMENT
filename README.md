@@ -170,3 +170,32 @@ python House_Price_Prediction.py
 - **RMSE Score**: Displays the RMSE score after cross-validation.
 - **Submission File**: Generates a `submission.csv` file for the Kaggle competition.
 
+## Week 8
+
+### Loan Approval Prediction
+
+The Loan_Approval_Prediction.py script performs data preprocessing, feature engineering, and model evaluation for the Loan Approval Prediction task using the Kaggle dataset.
+
+#### Tasks
+
+1. *Load and preprocess the dataset* (Training Dataset.csv).
+2. *Handle missing values* in categorical and numerical features.
+3. *Encode categorical variables* using OneHotEncoding and LabelEncoding.
+4. *Scale numerical features* using StandardScaler.
+5. *Feature engineering* to create new features.
+6. *Train and evaluate* a Logistic Regression model.
+7. *Generate classification metrics* including accuracy, confusion matrix, and classification report.
+
+#### Usage
+
+To run the loan approval prediction script, use the following command:
+
+```sh
+python Loan_Approval_Prediction.py
+```
+## Example Output
+*Accuracy:* Displays the accuracy of the model.
+
+*Confusion Matrix:* Shows the confusion matrix of the predictions.
+
+*Classification Report:* Provides precision, recall, and f1-score for each class.
